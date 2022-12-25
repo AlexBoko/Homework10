@@ -5,7 +5,6 @@ public class Main {
         task3();
         task4();
     }
-
     public static int[] generateRandomArray() {
         java.util.Random random = new java.util.Random();
         int[] arr = new int[30];
@@ -14,7 +13,6 @@ public class Main {
         }
         return arr;
     }
-
     public static void task1() {
         System.out.println("Задача 1");
         int sum = 0;
@@ -40,7 +38,6 @@ public class Main {
         System.out.println("Минимальные затраты за день: " + min);
         System.out.println("Максимальные затраты за день: " + max);
     }
-
     public static void task3() {
         System.out.println("Задача 3");
         int[] numberArray = generateRandomArray();
@@ -50,7 +47,6 @@ public class Main {
         }
         System.out.println(sum / (float) numberArray.length);
     }
-
     public static void task4() {
         System.out.println("Задача 4");
         char[] reverseFullName = new char[]{'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
